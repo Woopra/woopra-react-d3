@@ -1,29 +1,29 @@
-== Woopra Test: Flow Analysis ==
+# Woopra Test: Flow Analysis
 
 
-=== 1. Webpack + React + ES6 environment ===
+## 1. Webpack + React + ES6 environment
 
 Configure a webpack instance to create a development bundle which will run in the browser. Feel free to add modules like css post processors and whatever other libraries you will need.
 
 We should be able to run this project using ```yarn start```
 
-=== 2. Build a page ===
+## 2. Build a page
 
 Build the react-redux foundation for the project and load a main view
 
-=== 3. Load the data ===
+## 3. Load the data
 
 Load the data from data.json into your store
 
-=== 4. Render a D3 Chart ===
+## 4. Render a D3 Chart
 
 Create a graph chart using D3 that will render a visual of the nodes and edges. Edges should visually represent their total. A user should be able visualize the main flow of this graph in a glance. You can use colors, thickness, or whatever else comes to mind. Get creative.
 
-=== 5. Interactions ===
+## 5. Interactions
 
 When the user clicks on an edge, the number will increment for that edge (using redux).
 
-== What we will look for ==
+# What we will look for ==
 
 1. A clean webpack setup
 1. A clean folder structure
