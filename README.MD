@@ -4,7 +4,7 @@
 
 ## 2. Webpack + React + ES6 environment
 
-Configure a webpack instance to create a development bundle which will run in the browser. Feel free to add modules like css post processors and whatever other libraries you will need.
+Configure a webpack instance to create a development bundle which will run in the browser. You may use a boilerplate or project generator such as `create-react-app`. Feel free to add extra modules like css post processors and whatever other libraries you will need.
 
 We should be able to run this project using ```yarn start```
 
@@ -26,7 +26,6 @@ When the user clicks on an edge, the number will increment for that edge (using 
 
 # What we will look for
 
-1. A clean webpack setup
 1. A clean folder structure
 1. A good approach to load data asynchronously to the store when the page loads (follow react-redux best practices) 
 1. A clean implementation of D3
